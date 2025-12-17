@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Equipments</title>
+  </head>
+  <body>
+    <h1>Equipments</h1>
+    <ul>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script>
+        $.getJSON("equipments.json", function(data) {
+          $.each(data, function(key, val) {
+            $("ul").append("<li>" + val.name + "</li>");
+          });
+        });
+      </script>
+    </ul>
+  </body>
+</html>

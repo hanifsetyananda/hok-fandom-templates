@@ -1,0 +1,96 @@
+[
+    {
+        "name": "Axe of Torment",
+        "price": 2090,
+        "image": "",
+        "tier": "Advanced",
+        "type": "Physical",
+        "stats": [
+            {
+                "number": 80,
+                "type": "Physical Attack"
+            },
+            {
+                "number": 10,
+                "type": "Cooldown Reduction"
+            },
+            {
+                "number": 500,
+                "type": "Max Health"
+            }
+        ],
+        "passive": [
+            {
+                "name": "Sever",
+                "description": "Increases Physical Pierce by <span style='color:red'>90 - 180</span>"
+            }
+        ],
+        "active": [],
+        "recipe": [
+            "Meteor",
+            "Sunglow Strike"
+        ]
+    },
+    {
+        "name": "Meteor",
+        "price": 760,
+        "image": "",
+        "tier": "Intermediate",
+        "type": "Physical",
+        "stats": [
+            {
+                "number": 35,
+                "type": "Physical Attack"
+            },
+            {
+                "number": 7.5,
+                "type": "Cooldown Reduction"
+            }
+        ],
+        "passive": [],
+        "active": [],
+        "recipe": [
+            "Iron Sword",
+            "Primordial Crystal"
+        ]
+    },
+    {
+        "name": "Sunglow Striker",
+        "price": 760,
+        "image": "",
+        "tier": "Intermediate",
+        "type": "Physical",
+        "stats": [
+            {
+                "number": 35,
+                "type": "Physical Attack"
+            },
+            {
+                "number": 450,
+                "type": "Max Health"
+            }
+        ],
+        "passive": [],
+        "active": [],
+        "recipe": [
+            "Iron Sword",
+            "Resilient Agate"
+        ]
+    },
+    {
+        "name": "Iron Sword",
+        "price": 275,
+        "image": "",
+        "tier": "Basic",
+        "type": "Physical",
+        "stats": [
+            {
+                "number": 20,
+                "type": "Physical Attack"
+            }
+        ],
+        "passive": [],
+        "active": [],
+        "recipe": []
+    }
+]
